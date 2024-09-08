@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main() 
+{
+    int num1, num2, num3, num4, num5;
+    int totalMarks;
+    
+    cout << "Enter 5 numbers: ";
+    cin >> num1 >> num2 >> num3 >> num4 >> num5;
+    
+    cout << "Enter total marks: ";
+    cin >> totalMarks;
+    
+    int sum = num1 + num2 + num3 + num4 + num5;
+    
+    float percentage = (float(sum) / totalMarks) * 100;
+    
+    cout << "The percentage is: " << percentage << "%" << endl;
+    
+    return 0;
+}
